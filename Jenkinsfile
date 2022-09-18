@@ -2,7 +2,7 @@ pipeline {
     agent { label 'gcc' }
     environment {
         CI = true
-        AGENT_ACCESS = credentials('credential-from-gcc-agent')
+        AGENT_ACCESS = credentials('credential-for-artifactory')
     }
     stages {
         stage('download') {

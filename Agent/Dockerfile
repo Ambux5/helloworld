@@ -13,8 +13,10 @@ RUN apt-get install -y openssh-server
 RUN mkdir -p /var/run/sshd
 
 # Install JDK 11 from local file
-COPY openjdk-11+28_linux-x64_bin.tar.gz .
-RUN tar zxvf openjdk-11+28_linux-x64_bin.tar.gz 
+#COPY openjdk-11+28_linux-x64_bin.tar.gz .
+#RUN tar zxvf openjdk-11+28_linux-x64_bin.tar.gz 
+RUN wget https://download.java.net/java/ga/jdk11/openjdk-11_linux-x64_bin.tar.gz
+RUN tar zxvf openjdk-11_linux-x64_bin.tar.gz 
 RUN mv jdk-11* /usr/local/
 RUN export JAVA_HOME=/usr/local/jdk-11
 RUN export PATH=$PATH:$JAVA_HOME/bin
