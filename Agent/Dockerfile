@@ -20,6 +20,7 @@ RUN tar zxvf openjdk-11_linux-x64_bin.tar.gz
 RUN mv jdk-11* /usr/local/
 RUN export JAVA_HOME=/usr/local/jdk-11
 RUN export PATH=$PATH:$JAVA_HOME/bin
+RUN rm openjdk-11_linux-x64_bin.tar.gz 
 
 # Install utilities
 RUN apt-get install -y git

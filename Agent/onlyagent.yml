@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  agentubuntu:
+    image: gccagent:latest
+    privileged: true
+    user: root
+    container_name: agent-ubuntu
+    expose:
+      - 22
+
