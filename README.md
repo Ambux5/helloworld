@@ -1,4 +1,4 @@
-[![Build Status](http://188.175.29.170:8080/buildStatus/icon?job=HelloWorld)](http://192.168.50.235:8080/job/HelloWorld/)
+[![Build Status](http://188.175.29.170:8080/buildStatus/icon?job=HelloWorld)](http://188.175.29.170:8080/job/HelloWorld/)
 # helloworld
 ## Install infrastructure
 
