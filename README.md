@@ -1,4 +1,4 @@
-{<img src='http://188.175.29.170:8080/job/HelloWorld/badge/icon'/>}[http://188.175.29.170:8080/job/HelloWorld/]
+<img src="http://188.175.29.170:8080/job/HelloWorld/badge/icon" />
 
 # helloworld
 ## Install infrastructure
