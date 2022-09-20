@@ -1,3 +1,4 @@
+http://188.175.29.170:8080/job/HelloWorld/badge/icon
 # helloworld
 ## Install infrastructure
 
