@@ -86,5 +86,7 @@ Dashboard -> New item
 * Save
 * Build Now
 
+### 6. How
+
 ## resources 
 https://github.com/u-boot/jenkins-slave-ubuntu/blob/master/Dockerfile
